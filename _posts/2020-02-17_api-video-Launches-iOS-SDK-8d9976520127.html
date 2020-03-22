@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>api.video Launches iOS SDK</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">api.video Launches iOS SDK</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+api.video removes the complexity from streaming video. Last year, we announced our Android SDK, now we are happy to introduce the iOS SDK.
+</section>
+<section data-field="body" class="e-content">
+<section name="bd28" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="8ce6" id="8ce6" class="graf graf--h3 graf--leading graf--title">api.video Launches iOS SDK</h3><figure name="cb4c" id="cb4c" class="graf graf--figure graf-after--h3"><div class="aspectRatioPlaceholder is-locked" style="max-width: 620px; max-height: 250px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 40.300000000000004%;"></div><img class="graf-image" data-image-id="1*ZYvRjWjK-DvvAz_Ww7Nx-A.jpeg" data-width="620" data-height="250" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*ZYvRjWjK-DvvAz_Ww7Nx-A.jpeg"></div><figcaption class="imageCaption">iPhone development image <a href="https://www.flickr.com/photos/ramotion/5189385602" data-href="https://www.flickr.com/photos/ramotion/5189385602" class="markup--anchor markup--figure-anchor" rel="noopener" target="_blank">https://www.flickr.com/photos/ramotion/5189385602</a></figcaption></figure><p name="f401" id="f401" class="graf graf--p graf-after--figure"><a href="https://api.video" data-href="https://api.video" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">api.video</a> removes the complexity from streaming video. Our simple to use APIs allow you to focus on creating your content, and leaving the video streaming details to us.</p><p name="9903" id="9903" class="graf graf--p graf-after--p">Since launching api.video, one of the most common questions we are asked is “do you have mobile SDKs?” Today, we can answer that with a “yes!”</p><p name="e06d" id="e06d" class="graf graf--p graf-after--p">Late last year, we announced our <a href="https://github.com/apivideo/android-sdk" data-href="https://github.com/apivideo/android-sdk" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Android SDK</a>, and today we are happy to announce the release of our <a href="https://github.com/apivideo/ios-sdk" data-href="https://github.com/apivideo/ios-sdk" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">iOS SDK</a>. If you have used api.video in the past, you’ll see that all of the features that are available in our APIs are now available as native iOS calls.</p><p name="427d" id="427d" class="graf graf--p graf-after--p">If you have never used api.video, imagine a simple API interface to upload, modify, and delete video streams, create custom players, add captions or chapters, and even live stream video — all from the native app. That is the power that api.video (and all of our <a href="https://docs.api.video/5.1/sdk-and-tools" data-href="https://docs.api.video/5.1/sdk-and-tools" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">SDKs</a>) can give you. To get started, read the documentation on <a href="https://github.com/apivideo/ios-sdk" data-href="https://github.com/apivideo/ios-sdk" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">GitHub</a>, and check out the <a href="https://github.com/apivideo/ios-demo" data-href="https://github.com/apivideo/ios-demo" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">demo application code </a>(launching this week).</p><p name="ebc2" id="ebc2" class="graf graf--p graf-after--p">The quick start guide (pulled from GitHub):</p><h3 name="6165" id="6165" class="graf graf--h3 graf-after--p">Installation</h3><h3 name="19b7" id="19b7" class="graf graf--h3 graf-after--h3">Cocoapod</h3><ol class="postList"><li name="26e6" id="26e6" class="graf graf--li graf-after--h3">Add the following entry to your Podfile:</li></ol><blockquote name="90bf" id="90bf" class="graf graf--blockquote graf-after--li">pod ‘sdkApiVideo’</blockquote><p name="c175" id="c175" class="graf graf--p graf-after--blockquote">2. Then run pod install</p><p name="25fd" id="25fd" class="graf graf--p graf-after--p">3. Don’t forget to import sdkApiVideo in every file you’d like to use api.video sdk</p><h3 name="6e43" id="6e43" class="graf graf--h3 graf-after--p">Quick Start</h3><h3 name="0841" id="0841" class="graf graf--h3 graf-after--h3">1. In the AppDelegate.swift instantiate a new Client</h3><blockquote name="ce26" id="ce26" class="graf graf--blockquote graf-after--h3">let authClient = Client()</blockquote><h3 name="f5cb" id="f5cb" class="graf graf--h3 graf-after--blockquote">2. In the didFinishLaunchingWithOptions func add the following code</h3><ul class="postList"><li name="8677" id="8677" class="graf graf--li graf-after--h3">If you want to use the production environment, use createProduction method</li><li name="2e1a" id="2e1a" class="graf graf--li graf-after--li">If you want to use the sandbox environment , use createSandbox method</li></ul><blockquote name="b22d" id="b22d" class="graf graf--blockquote graf-after--li">authClient.createSandbox(key: « YOUR_SANDBOX_API_KEY »){ (created, reponse) in</blockquote><blockquote name="9209" id="9209" class="graf graf--blockquote graf-after--blockquote">}</blockquote><h3 name="9a7e" id="9a7e" class="graf graf--h3 graf-after--blockquote">3. In your ViewController.swift file import the sdk</h3><blockquote name="0348" id="0348" class="graf graf--blockquote graf-after--h3">import sdkApiVideo</blockquote><h3 name="f9dc" id="f9dc" class="graf graf--h3 graf-after--blockquote">4. Create Variable</h3><blockquote name="0a93" id="0a93" class="graf graf--blockquote graf-after--h3">let appDelegate = UIApplication.shared.delegate as! AppDelegate</blockquote><h3 name="bd33" id="bd33" class="graf graf--h3 graf-after--blockquote">5. In viewDidLoad func</h3><blockquote name="7aae" id="7aae" class="graf graf--blockquote graf-after--h3">self.videoApi = appDelegate.authClient.videoApi</blockquote><h3 name="48eb" id="48eb" class="graf graf--h3 graf-after--blockquote">6. Create and upload a video file</h3><blockquote name="7231" id="7231" class="graf graf--blockquote graf-after--h3">self.videoApi.create(title: «title», description: «description», fileName: «filename», filePath: «filePath», url: «url»){ (uploaded, resp) in</blockquote><blockquote name="ec74" id="ec74" class="graf graf--blockquote graf-after--blockquote">if(resp != nil){</blockquote><blockquote name="f7a3" id="f7a3" class="graf graf--blockquote graf-after--blockquote">print(“error : \((resp?.statusCode)!) -&gt; \((resp?.message)!)”)</blockquote><blockquote name="644a" id="644a" class="graf graf--blockquote graf-after--blockquote">}else{</blockquote><blockquote name="0ffe" id="0ffe" class="graf graf--blockquote graf-after--blockquote">if(uploaded){</blockquote><blockquote name="4b16" id="4b16" class="graf graf--blockquote graf-after--blockquote">//Do whatever you want</blockquote><blockquote name="46e9" id="46e9" class="graf graf--blockquote graf-after--blockquote">}else{</blockquote><blockquote name="5bcc" id="5bcc" class="graf graf--blockquote graf-after--blockquote">// Do whatever you want</blockquote><blockquote name="ffe3" id="ffe3" class="graf graf--blockquote graf-after--blockquote">}</blockquote><blockquote name="af02" id="af02" class="graf graf--blockquote graf-after--blockquote">}</blockquote><blockquote name="7945" id="7945" class="graf graf--blockquote graf-after--blockquote">}</blockquote><p name="c2f9" id="c2f9" class="graf graf--p graf-after--blockquote">And that’s all there is to it!</p><p name="65eb" id="65eb" class="graf graf--p graf-after--p">Now you can use all your favourite api.video calls in your mobile app, simplifying the delivery of your videos with one API to apps, browsers and billions of devices around the world.</p><p name="49c7" id="49c7" class="graf graf--p graf-after--p graf--trailing">If you have questions, file an <a href="https://github.com/apivideo/ios-sdk/issues" data-href="https://github.com/apivideo/ios-sdk/issues" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">issue</a>, or reach out to us on <a href="https://api.video" data-href="https://api.video" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">chat</a>.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@api.video" class="p-author h-card">api.video</a> on <a href="https://medium.com/p/8d9976520127"><time class="dt-published" datetime="2020-02-17T15:19:35.723Z">February 17, 2020</time></a>.</p><p><a href="https://medium.com/@api.video/api-video-launches-ios-sdk-8d9976520127" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 19, 2020.</p></footer></article></body></html>
