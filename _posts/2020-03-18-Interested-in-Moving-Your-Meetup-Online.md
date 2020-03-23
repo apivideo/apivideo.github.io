@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Interested in Moving Your Meetup Online?
 ---
 
 Current events have caused the cancellation of face-to-face meetups.  I personally love attending meetups, and have been saddened by the number of cancellations that have been appearing in my inbox.
