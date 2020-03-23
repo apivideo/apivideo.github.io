@@ -17,7 +17,7 @@ theme: # leave it empty
 
 # social
 author: api.video
-image: /thumbnail-jumbo.svg
+image: /thumbnail-jumbo.png
 twitter:
   username: api_video
 
