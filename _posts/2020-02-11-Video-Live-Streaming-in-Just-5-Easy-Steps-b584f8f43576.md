@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Video Live Streaming in Just 5 Easy Steps
 description: >-
   Sharing live video is an exciting way to connect with your audience. Get a
