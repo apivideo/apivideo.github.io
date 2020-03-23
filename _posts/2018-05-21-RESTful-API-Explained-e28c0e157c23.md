@@ -1,4 +1,5 @@
 ---
+layout: post
 title: RESTful API Explained
 description: >-
   We’re pretty familiar with the REST standard, and feel fairly confident
