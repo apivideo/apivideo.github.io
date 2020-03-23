@@ -1,5 +1,6 @@
 ---
 title: How to Add  Captions to your Videos
+layout: post
 description: >-
   Videos are a compelling way to share experiences with your customers. The
   combination of speech, sounds, images and movement allow us to…
@@ -109,18 +110,14 @@ So I created a function that groups words, using the first word’s start time,a
 
 Adding the VTT file to your video is easy. If you are using HTML5 video, you can add a track attribute pointing to the VTT file.
 
-> <video autoplay muted controls>
-
-> <source src=”myvideo.webm”>
-
-> <source src=”myvideo.mp4">
-
-> <track default lang=”en” kind=”captions” src=”myvideo.vtt”>
-
-> <track lang=”es” kind=”captions” src=”muvideo-es.vtt”>
-
-> </video>
-
+```html
+<video autoplay muted controls>
+    <source src=”myvideo.webm”>
+    <source src=”myvideo.mp4">
+    <track default lang=”en” kind=”captions” src=”myvideo.vtt”>
+    <track lang=”es” kind=”captions” src=”muvideo-es.vtt”>
+</video>
+```
 ### Video Streaming
 
 If you want to add captions to your [api.video](https://api.video) video, you can use the Captions API.
