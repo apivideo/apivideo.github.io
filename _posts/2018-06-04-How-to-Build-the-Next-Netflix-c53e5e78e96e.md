@@ -1,4 +1,5 @@
 ---
+layout: post
 title: How to Build the Next Netflix
 description: >-
   So you want to compete with one of the world's largest corporations, a
