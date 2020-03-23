@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d59acca9-671a-4659-a204-6d9fc8c513a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-17-api-video-Launches-iOS-SDK-8d9976520127.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-17-api-video-Launches-iOS-SDK-8d9976520127.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-26-Building-a-Video-Upload-Demo-with-Node-js-and-api-video-3d3519d03e8f.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-26-Building-a-Video-Upload-Demo-with-Node-js-and-api-video-3d3519d03e8f.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\emesd\Documents\Github\api.video\apivideo.github.io\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZUTSecwre1x8YakgG8mbEZbzMV" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files/node/node.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\emesd\Documents\Github\api.video\apivideo.github.io\_posts" />
+      <recent name="D:\emesd\Documents\Github\api.video\apivideo.github.io\_posts\html" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d59acca9-671a-4659-a204-6d9fc8c513a8" name="Default Changelist" comment="" />
+      <created>1584892674190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584892674190</updated>
+      <workItem from="1584892680870" duration="1861000" />
+      <workItem from="1584894560396" duration="272000" />
+      <workItem from="1584894845451" duration="750000" />
+      <workItem from="1584895621417" duration="330000" />
+      <workItem from="1584895984871" duration="628000" />
+      <workItem from="1584896654388" duration="784000" />
+      <workItem from="1584960142981" duration="5082000" />
+      <workItem from="1584965254976" duration="1772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1584965256435">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-360.1536.834@0.0.1920.1050" timestamp="1584965256435" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584896657224" />
+    <state x="2012" y="-378" width="1237" height="724" maximized="true" key="dock-window-1" timestamp="1584960896046">
+      <screen x="1920" y="-360" width="1536" height="834" />
+    </state>
+    <state x="2012" y="-378" width="1237" height="724" maximized="true" key="dock-window-1/0.0.1920.1050/1920.-360.1536.834@0.0.1920.1050" timestamp="1584960896046" />
+    <state x="657" y="257" width="606" height="536" key="find.popup" timestamp="1584894232666">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="657" y="257" width="606" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584894232666" />
+  </component>
+</project>

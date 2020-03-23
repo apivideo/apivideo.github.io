@@ -1,5 +1,6 @@
 ---
 title: api.video Launches iOS SDK
+layout: post
 description: >-
   api.video removes the complexity from streaming video. Last year, we announced
   our Android SDK, now we are happy to introduce the iOS SDK.
@@ -10,7 +11,6 @@ slug: /@api.video/api-video-launches-ios-sdk-8d9976520127
 ---
 
 ![iPhone development image [https://www.flickr.com/photos/ramotion/5189385602](https://www.flickr.com/photos/ramotion/5189385602)](https://cdn-images-1.medium.com/max/800/1*ZYvRjWjK-DvvAz_Ww7Nx-A.jpeg)
-iPhone development image [https://www.flickr.com/photos/ramotion/5189385602](https://www.flickr.com/photos/ramotion/5189385602)
 
 [api.video](https://api.video) removes the complexity from streaming video. Our simple to use APIs allow you to focus on creating your content, and leaving the video streaming details to us.
 
@@ -28,11 +28,11 @@ The quick start guide (pulled from GitHub):
 
 1.  Add the following entry to your Podfile:
 
-> pod ‘sdkApiVideo’
+    > pod ‘sdkApiVideo’
 
-2\. Then run pod install
+2. Then run pod install
 
-3\. Don’t forget to import sdkApiVideo in every file you’d like to use api.video sdk
+3. Don’t forget to import sdkApiVideo in every file you’d like to use api.video sdk
 
 ### Quick Start
 

@@ -1,5 +1,6 @@
 ---
 title: Building a Video Upload Demo with Node.js and api.video
+layout: post
 description: >-
   Here at api.video, we love making video delivery easy for our customers. We
   take care of doing all the video transcoding and video…
