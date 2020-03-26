@@ -1,5 +1,5 @@
 title: GET /video
-description: A bunch of geeks blogging about online video and API's.
+description: Engineers blogging about online video and API's.
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
