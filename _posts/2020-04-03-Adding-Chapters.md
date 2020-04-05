@@ -24,6 +24,7 @@ We knew that her teacher would not watch this, so we edited the video so that al
 Chapters!
 
 Chapters are markers that appear in the video timeline, and help the viewer see different sections of your video.
+
 ![Screenshot of a video with chapters](https://apivideo.github.io/images/chapters_videoscreenshot.png)
 
 In this screenshot, we can see that we are at the “Saturn” section in the video, both from the content on the screen, but also by the annotation on the playback bar. We can also guess that the next chapters are for Uranus, and the last chapter is marking Neptune. (The chapters for the closer-in planets are under the playback bar)
