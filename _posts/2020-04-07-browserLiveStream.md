@@ -63,7 +63,7 @@ The next issue to think about is the tool processing your video.  The video is t
 
 ![Screenshot of the ffmpeg output](https://apivideo.github.io/images/livestream_ffmpeg.png) 
 
-<iframe src="https://giphy.com/embed/bSJB8Ju3063qU" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cheezburger-chocolate-candy-bSJB8Ju3063qU">via GIPHY</a></p>
+![gif of fast conveyer belt](https://giphy.com/gifs/cheezburger-chocolate-candy-bSJB8Ju3063qU)
 
 Conclusion
 And that’s it!  We CAN livestream from the browser.  The code running the website is available on [GitHub](https://github.com/dougsillars/browserLiveStream), so feel free to fork the code and build your own livestreaming website!  Have fun streaming video across the web with no added software!  If you have any questions or concerns, please reach out via our [online community](https://community.api.video)
