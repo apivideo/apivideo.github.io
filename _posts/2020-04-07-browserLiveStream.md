@@ -63,7 +63,9 @@ The next issue to think about is the tool processing your video.  The video is t
 
 ![Screenshot of the ffmpeg output](https://apivideo.github.io/images/livestream_ffmpeg.png) 
 
+In order to avoid:
+
 ![gif of fast conveyer belt](https://media.giphy.com/media/bSJB8Ju3063qU/giphy.gif)
 
-Conclusion
-And that’s it!  We CAN livestream from the browser.  The code running the website is available on [GitHub](https://github.com/dougsillars/browserLiveStream), so feel free to fork the code and build your own livestreaming website!  Have fun streaming video across the web with no added software!  If you have any questions or concerns, please reach out via our [online community](https://community.api.video)
+## Conclusion
+And that’s it!  We **CAN** livestream from the browser.  The code running the website is available on [GitHub](https://github.com/dougsillars/browserLiveStream), so feel free to fork the code and build your own livestreaming website!  Have fun streaming video across the web with no added software!  If you have any questions or concerns, please reach out via our [online community](https://community.api.video)
