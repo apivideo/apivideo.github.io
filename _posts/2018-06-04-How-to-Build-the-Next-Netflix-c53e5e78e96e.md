@@ -13,7 +13,7 @@ slug: >-
 
 So you want to compete with one of the world’s largest corporations, a household brand name that operates just about everywhere?
 
-![_Netflix availability in red countries_](https://cdn-images-1.medium.com/max/600/0*1_7kuO24IfwyOQaF)
+![_Netflix availability in red countries_](https://cdn-images-1.medium.com/max/600/0*1_7kuO24IfwyOQaF)<!--more-->
 _Netflix availability in red countries_
 
 Awesome! We love a good challenge just as much as the next API provider. Building the next Netflix is no small task. Creating a so called [“global TV network”](http://money.cnn.com/2016/01/06/media/netflix-global-launch-countries/index.html) requires a complex set of skills and knowledge. Remember, Netflix is a global platform, not just a content delivery network. Along with your streaming content, there’s the recommendation system, content database, the global farm of servers, and a constantly reliable payments system to support it all. Quite a lot of tools to juggle!

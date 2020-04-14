@@ -10,6 +10,8 @@ keywords: []
 slug: /@api.video/video-live-streaming-in-just-5-easy-steps-b584f8f43576
 ---
 
+<!--more-->
+
 ![sign indicating “on air” for a TV broadcast.](https://cdn-images-1.medium.com/max/800/1*pExgYeUUUfmva8r9PxcjhQ.jpeg)
 
 > Image Source: https://en.wikipedia.org/wiki/File:On\_Air\_DSC0004\_1.jpg

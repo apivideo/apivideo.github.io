@@ -9,9 +9,6 @@ keywords: []
 slug: 
 ---
 
-
-## Live Streaming a video using just the browser
-
 The tech world has been pivoting to being ‘video-first’ for several years, with many companies being 100% remote,and everyone communicating digitally.  This spring, the rest of the world was involuntarily thrown into not just “video-first” but “video-only.”  Schools, universities, and millions of companies are being forced to quickly embrace video as their primary means of communication.
 
 While there are many tools that can be used for video streaming - wouldn’t it be great if we could just use our browser?  We at [api.video](https://api.video) wanted to show that it was possible!  In this post, we will walk you through the steps to start streaming right form your browser!

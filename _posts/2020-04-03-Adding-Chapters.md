@@ -10,8 +10,6 @@ slug: /@api.video/restful-api-explained-e28c0e157c23
 ---
 
 
-## Video Chapters
-
 When uploading a long video, it can be hard for your viewers to scan to the area of the video they are interested in.  Rather than chop your video into smaller segments (and breaking up the continuity of the entire video), you can use chapters to denote placeholders in your video so that your viewers can ‘skip ahead’ or ‘skip back’ to pertinent sections that they want to watch again.
 
 As an example for this post, I’m going to share a video my daughter made for her astronomy class.  In order to show the distance from the sun to the various planets in the Solar System, she used her GPS and walked through our neighborhood placing the planets.  The distance between each planet was scaled based on the size of the sun in her model.  It is a good study of logarithmic distances:

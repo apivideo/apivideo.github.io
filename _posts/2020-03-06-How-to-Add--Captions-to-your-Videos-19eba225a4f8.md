@@ -10,6 +10,8 @@ keywords: []
 slug: /@api.video/how-to-add-captions-to-your-videos-19eba225a4f8
 ---
 
+<!--more-->
+
 ![](https://cdn-images-1.medium.com/max/800/1*rvPreCBsGA-po5W6JOZGuw.png)
 
 Videos are a compelling way to share experiences with your customers. The combination of speech, sounds, images and movement allow us to share a more enriching experience.
