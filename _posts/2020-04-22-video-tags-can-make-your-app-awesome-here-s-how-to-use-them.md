@@ -2,6 +2,7 @@
 layout: post
 title: Video Tags can Make Your App Awesome, Here’s How to Use Them.
 tagline: It is true that api.video is an API for video. However, we are also an API for developers! That is why we decided to bake a video tagging and filtering system right into our API.
+image: /images/petvids.png
 ---
 
 <p>Having a reliable way to filter videos based on specific criteria is a must for most video apps.</p>
