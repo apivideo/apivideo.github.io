@@ -3,15 +3,15 @@ layout: post
 title: Custom Video Upload URL's for Sharing
 tagline: A simple upload form generator that allows you to collect video submissions organized by source.
 ---
-Often it's useful to be able to provide others with a quick upload link to your video host (i.e. Vimeo, YouTube, [api.video](http://api.video) 😉).
+Often it's useful to be able to provide others with a quick upload link to your video host (i.e., Vimeo, YouTube, [api.video](http://api.video) 😉).
 <!--more-->
 - Customer service reps who would like the customer to record and upload the issue with their phone.
 - Schools that want to provide teachers with a way to upload lectures to their LMS (Learning Management System)
-- Grandparents who want to be proactive instead of waiting until their kids "get around" to sending videos of the grands.
+- Grandparents who want to be proactive instead of waiting until their kids "get around" to sending videos of the grandkids.
 
-However, It would not be enough to simply provide a third-party upload link. In each of these cases (except, perhaps the last) we need a way to organize the videos based on their upload source. For example, the school will want to be able to filter (either programatically or with a UI) the videos based on the teacher who uploaded them.
+However, It would not be enough to simply provide a third-party upload link. In each of these cases (except, perhaps the last), we need a way to organize the videos based on their upload source. For example, the school will want to be able to filter (either programmatically or with a UI) the videos based on the teacher who uploaded them.
 
-Similiarily, the customer service rep will need a way to identify which customer uploaded which videos.
+Similarly, the customer service rep will need a way to identify which customer-uploaded which videos.
 
 Here's my solution (also available at [this link](https://enigmatic-harbor-87060.herokuapp.com/)). You will need a free [api.video](http://api.video) account. It takes less than a minute to sign up if you don't yet have an account.
 <br><br>
@@ -46,15 +46,15 @@ Anyone visiting that URL will see the following form:
 
 </div>
 
-By clicking "Choose File" users can choose a video on their file system or take one on the spot if they are on a mobile device.
+By clicking "Choose File," users can choose a video on their file system or take one on the spot if they are on a mobile device.
 
 Any videos uploaded using this form will show up in your account, tagged with the tag you chose when creating the upload link. 
 
-Guess what? I created this form with the tag `source: blog post` so any videos uploaded here will show up in my account tagged accordingly. I know I'm asking for trolling here. 😐 Go easy.
+Guess what? I created this form with the tag `source: blog post`, so any videos uploaded here will show up in my account tagged accordingly. I know I'm asking for trolling here. 😐 Go easy.
 
 You can filter your videos by tag using the web UI at [go.api.video](http://go.api.video) or via the API at the /videos endpoint by setting the `tags` parameter. See the docs [here](https://docs.api.video/5.1/videos/list-videos).
 
-For example over here I am taking a look to see which videos were uploaded from each source where I shared this article. I want to know which platform has the most trolls.
+For example, over here, I am taking a look to see which videos were uploaded from each source where I shared this article. I want to know which platform has the most trolls.
 
 ---
 
@@ -78,4 +78,4 @@ For example over here I am taking a look to see which videos were uploaded from 
 </div>
 ---
 
-You can embed the generated form on any website using an embed service such as Embedly. In this case, I am using notions built-in video embed service. You can also share the link with as many people as you want. It can be reused indefinitely. If this becomes an issue you need only refresh your API key on your [api.video](http://api.video) dashboard and videos will no longer be uploaded to your account.
+You can embed the generated form on any website using an embed service such as Embedly. In this case, I am using notions built-in video embed service. You can also share the link with as many people as you want. It can be reused indefinitely. If this becomes an issue, you need only refresh your API key on your [api.video](http://api.video) dashboard, and videos will no longer be uploaded to your account.
