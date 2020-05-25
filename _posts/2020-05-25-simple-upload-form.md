@@ -3,10 +3,8 @@ layout: post
 title: Custom Video Upload URL's for Sharing
 tagline: A simple upload form generator that allows you to collect video submissions organized by source.
 ---
-# A simple upload form generator that allows you to collect video submissions organized by source
-
-There are many situations where it would be useful to be able to provide others with a quick link that would allow others to upload videos to your video hosting platform (i.e. Vimeo, YouTube, [api.video](http://api.video) 😉).
-
+Often it's useful to be able to provide others with a quick upload link to your video host (i.e. Vimeo, YouTube, [api.video](http://api.video) 😉).
+<!--more-->
 - Customer service reps who would like the customer to record and upload the issue with their phone.
 - Schools that want to provide teachers with a way to upload lectures to their LMS (Learning Management System)
 - Grandparents who want to be proactive instead of waiting until their kids "get around" to sending videos of the grands.
