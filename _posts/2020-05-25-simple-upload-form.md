@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom Video Upload URL's for Sharing
+title: Magic Video Upload URL's
 tagline: A simple upload form generator that allows you to collect video submissions organized by source.
 ---
 Often it's useful to be able to provide others with a quick upload link to your video host (i.e., Vimeo, YouTube, [api.video](http://api.video) 😉).
