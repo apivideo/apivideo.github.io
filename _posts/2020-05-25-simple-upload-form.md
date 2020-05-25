@@ -85,8 +85,8 @@ For example, over here, I am taking a look to see which videos were uploaded fro
 <br>
 <br>
 
-<figure class="aligncenter" style="background-color: #003399; padding:10px; width: max-content;">
-<img src="/images/Screenshot_2020-05-20_at_4.37.28_PM.png" alt="A%20simple%20upload%20form%20generator%20that%20allows%20you%20to%20%20e12901ecdf35411aba1daf2e591e34a3/Screenshot_2020-05-20_at_4.37.28_PM.png">
+<figure class="aligncenter" style="background-color: #003399; padding:10px; ">
+<img src="/images/Screenshot_2020-05-20_at_4.37.28_PM.png" alt="A%20simple%20upload%20form%20generator%20that%20allows%20you%20to%20%20e12901ecdf35411aba1daf2e591e34a3/Screenshot_2020-05-20_at_4.37.28_PM.png" style="width: 100%;">
 </figure>
 <br>
 
