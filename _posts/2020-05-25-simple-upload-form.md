@@ -124,7 +124,7 @@ You can also share the link with as many people as you want. It can be reused in
 <br>
 That's all, folks! I hope you enjoyed reading this half as much as I enjoyed writing it.
 
-If you have any questions or comments, hit me up on [twitter](https://twitter.com/codegician) or shoot me an [email](mailto:yitzi@api.video).
+If you have any questions or comments, hit me up on [Twitter](https://twitter.com/codegician) or shoot me an [email](mailto:yitzi@api.video).
 
 See you next time!
 
