@@ -7,6 +7,12 @@ date: '2020-04-06T20:52:40.563Z'
 categories: []
 keywords: []
 slug: 
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
+  
 ---
 
 The tech world has been pivoting to being ‘video-first’ for several years, with many companies being 100% remote,and everyone communicating digitally.  This spring, the rest of the world was involuntarily thrown into not just “video-first” but “video-only.”  Schools, universities, and millions of companies are being forced to quickly embrace video as their primary means of communication.

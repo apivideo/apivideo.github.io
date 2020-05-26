@@ -1,6 +1,11 @@
 ---
 title: Building a Video Upload Demo with Node.js and api.video
 layout: post
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
 description: >-
   Here at api.video, we love making video delivery easy for our customers. We
   take care of doing all the video transcoding and video…

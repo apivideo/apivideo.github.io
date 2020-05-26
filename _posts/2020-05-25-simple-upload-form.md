@@ -1,7 +1,14 @@
 ---
+
 layout: post
-title: Magic Video Upload URL's
+title: Magic Video Upload URLs
+author:
+  name: "Yitzi G"
+  url: "https://twitter.com/codegician"
+twitter:
+  username: codegician  
 tagline: A simple upload form generator that allows you to collect video submissions organized by source.
+
 ---
 Often it's useful to be able to provide others with a quick upload link to your video host (i.e., Vimeo, YouTube, [api.video](http://api.video) 😉).
 <!--more-->

@@ -1,4 +1,5 @@
 ---
+
 #
 # Here you can change the text shown in the Home page before the Latest Posts section.
 #
@@ -6,6 +7,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+
 ---
 
 API.VIDEO is erasing the pains of online video workflows, one endpoint at a time.

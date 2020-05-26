@@ -1,6 +1,13 @@
 ---
+
 layout: post
 title: "Every Video Format, Codec, and Container Explained"
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
+  
 ---
 
 Video encoding or video transcoding is the process of exporting digital video into a format and specification suitable for playback by a user. Each video file contains two elements: Codecs, or “compression-decompression“ algorithms which compress the video, and formats, the type of file the data is compressed to. Imagine a shipping container filled with packages of many types. In this analogy the shipping container is the format, and the codec is the tool that creates the packages and places them in the container.

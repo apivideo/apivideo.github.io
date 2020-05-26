@@ -1,6 +1,11 @@
 ---
 layout: post
 title: How to Build the Next Netflix
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars  
 description: >-
   So you want to compete with one of the world's largest corporations, a
   household brand name that operates just about everywhere?

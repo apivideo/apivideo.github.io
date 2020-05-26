@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Adding Chapters to Your Videos
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
 description: >-
   Chapters can help your viewers quickly navigate through longer form videos.
 date: '2020-04-03T20:52:40.563Z'

@@ -1,6 +1,11 @@
 ---
 title: api.video Launches iOS SDK
 layout: post
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
 description: >-
   api.video removes the complexity from streaming video. Last year, we announced
   our Android SDK, now we are happy to introduce the iOS SDK.

@@ -16,7 +16,10 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: api.video
+author:
+  name: api.video
+  url: "https://api.video"
+
 image: /thumbnail-jumbo.png
 twitter:
   username: api_video

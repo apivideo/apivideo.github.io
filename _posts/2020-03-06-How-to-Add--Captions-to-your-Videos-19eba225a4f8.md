@@ -1,6 +1,11 @@
 ---
 title: How to Add  Captions to your Videos
 layout: post
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
 description: >-
   Videos are a compelling way to share experiences with your customers. The
   combination of speech, sounds, images and movement allow us to…

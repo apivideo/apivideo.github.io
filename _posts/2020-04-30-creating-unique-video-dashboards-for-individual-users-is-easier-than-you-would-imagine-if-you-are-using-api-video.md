@@ -1,8 +1,15 @@
 ---
+
+twitter:
+  username: codegician
 layout: post
 title: Creating Unique Video Dashboards for Individual Users Is Easier than You Would Imagine... If You Are Using Api.video😉
 tagline: One of the primary sources of frustration for teachers and parents stems from the need for teachers and students to adopt new technology with which they are unfamiliar.
 image: /images/teacher.jpg
+author:
+  name: "Yitzi G"
+  url: "https://twitter.com/codegician"
+  
 ---
 
 <picture style=""><img style="" alt="" src="https://images.storychief.com/account_21166/design-desk-display-eyewear-313690_4c94524b088e9f195cac811221aa4664_1000.jpg"></picture>

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Video Live Streaming in Just 5 Easy Steps
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars
 description: >-
   Sharing live video is an exciting way to connect with your audience. Get a
   live video stream up and running in just 5 steps.

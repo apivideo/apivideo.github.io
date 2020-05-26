@@ -4,6 +4,11 @@ title: RESTful API Explained
 description: >-
   We’re pretty familiar with the REST standard, and feel fairly confident
   answering this question. Our product, api.video was developed on…
+author:
+  name: "Doug Sillars"
+  url: "https://twitter.com/dougsillars"
+twitter:
+  username: dougsillars  
 date: '2018-05-21T20:52:40.563Z'
 categories: []
 keywords: []

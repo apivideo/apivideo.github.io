@@ -1,6 +1,8 @@
 ---
+
 layout: post
 title: "Start remote work with online video and Zoom.us"
+
 ---
 
 In October 2019, after many exchange with the team, we took the decision to modify our internal organisation and become a “**remote-first**” company.
