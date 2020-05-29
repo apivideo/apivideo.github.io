@@ -30,7 +30,7 @@ One unique feature in Video.js is that the player automatically delivers the app
 
 ## Video Playback Speed
 For longer videos, some viewers may wish to watch at a slightly faster rate. The speed button in the bottom right allows you to watch as much as 2x faster than the original recording:
-<iframe src="https://embed.api.video/vod/vi1SrFZunnjsskWtHfkJSLPE#autoplay#loop" width = "800" allowfullscreen></iframe>
+<iframe src="https://embed.api.video/vod/vi1SrFZunnjsskWtHfkJSLPE#autoplay#loop" width = "800" height ="600" allowfullscreen></iframe>
 
 
 ## Video Rewind and Fast Forward
@@ -41,7 +41,7 @@ But, that is not the coolest part of the rewind and fast forward.
 ## Live DVR
 Yes! The rewind works on a live stream!  If you are watching a live stream on api.video and miss a word, or want to review a slide - you can rewind and pause the video.  Then press play, and increase the playback speed to zip back to the “live” coverage!
 
-<iframe src="https://embed.api.video/vod/vi7TP72DbTUSxaEX5xv8Wg59" width = "800" allowfullscreen></iframe>
+<iframe src="https://embed.api.video/vod/vi7TP72DbTUSxaEX5xv8Wg59" width = "800" height ="600" allowfullscreen></iframe>
 
 
 We are really excited to share these great new features with you, and can’t wait to see what cool videos and ways you might implement these features to better display your content.  Please let us know what you think about the new video player in our developer forum: community.api.video
