@@ -17,7 +17,8 @@ In addition to the new sleek look of the player, there are a lot of new features
 
 [Captions](https://apivideo.github.io/2020/03/06/@api.video-how-to-add-captions-to-your-videos-19eba225a4f8.html) and [Chapters](https://apivideo.github.io/2020/04/03/@api.video-restful-api-explained-e28c0e157c23.html) were supported in the last player, and continue to be supported by the api.video player.
 
-## Chromecast
+## Chromecast
+
 If there is a Chromecast on the same network as the device playing the video, a “cast” button will appear, so you can send to the larger screen.
 
 ## Picture in Picture
