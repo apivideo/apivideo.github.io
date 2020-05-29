@@ -2,7 +2,11 @@
 Api.video makes the delivery of streaming video easy.  Just use our API to upload a video, and we handle all of the transcoding, storage and video delivery for you.  All you need to do is add the url (or iframe) to your site or app, and we handle the rest - ensuring fast, easy video delivery to all of your users.
 
 The url (or iframe) from api.video that you add to your site contains a customisable video player full of great features. Today, we are announcing the release of our new video player with more incredible features to wow your customers.
-https://embed.api.video/vod/vi1Q5jwq20gJj5xXWUvc6jGA
+
+
+<iframe src="https://embed.api.video/vod/vi1Q5jwq20gJj5xXWUvc6jGA" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+
+
 A video describing the new api.video player, inside the new api.video player!
 
 Our new player is completely rewritten from the ground up, built on top of the video.js architecture. So, what that does this mean for you? For existing api.video users - all your videos have been automatically upgraded to the new player, and all future videos will automatically use the player as well!
