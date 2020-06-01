@@ -4,7 +4,7 @@ Api.video makes the delivery of streaming video easy.  Just use our API to uploa
 The url (or iframe) from api.video that you add to your site contains a customisable video player full of great features. Today, we are announcing the release of our new video player with more incredible features to wow your customers.
 
 
-<iframe src="https://embed.api.video/vod/vi1Q5jwq20gJj5xXWUvc6jGA" width = "800" height ="600" allowfullscreen></iframe>
+<iframe src="https://embed.api.video/vod/viTLpKB231ATWOWjkHgi9bf" width = "800" height ="600" allowfullscreen></iframe>
 
 
 A video describing the new api.video player, inside the new api.video player!
