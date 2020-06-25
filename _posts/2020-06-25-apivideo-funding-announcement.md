@@ -1,5 +1,6 @@
 # We just raised $5.5M! What does that mean for our developer community?
 
+![github commits](https://apivideo.github.io/images/github.png)
 
 As developers, we all have grand designs for our projects.  *“If only I had XX more hours (days) to add that feature,”*  *“I wish I could afford to…”*  How many github repos of half started ideas do you have sitting idle, just waiting for that time/cash infusion to build your dream?  Startup life is no different, especially here at api.video. From the start, we have built a long list of all the features in our grand vision on what a video API could deliver. We’ve always been limited by the available hours, the team, and infrastructure that we had to build with.  New features keep coming out (just look at our new video player, website and dashboards released in the last few months!), but the pace has always been a frustrating one for us - we just want to build the best video delivery platform and api in the world.
 
