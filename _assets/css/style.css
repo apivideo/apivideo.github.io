@@ -10,6 +10,14 @@
 
 :root {
   --card-bg-color-dark: #09070d30;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --accent-11: #d93f0d;
+  --gray-3: #efefef;
+}
+
+.dark {
+  --accent-11: #ff9372;
 }
 
 
@@ -99,7 +107,7 @@
   max-width: 100%;
   overflow: auto;
   width: 100%;
-  background-color: var(--doctave-theme-content-bg-main);
+  background-color: var(--background-color);
   border-radius: 7px;
   padding: 5px;
 }
@@ -118,23 +126,23 @@
   opacity: 70%;
 }
 
-.codetabs.inner label > p {
+.codetabs.inner label p {
   line-height: 0;
   font-size: 12px;
 }
 
 .codetabs.inner label:hover {
-  border-bottom: 2px solid var(--doctave-theme-content-bg-secondary);
+  border-bottom: 2px solid var(--gray-3);
   cursor: pointer;
 }
 
 .dark .codetabs.inner label:hover {
-  border-bottom: 2px solid var(--doctave-theme-content-bg-secondary-dark);
+  border-bottom: 2px solid var(--gray-4);
 }
 
 .codetabs.inner input:checked + label {
   opacity: 100%;
-  border-bottom: 2px solid var(--doctave-theme-main) !important;
+  border-bottom: 2px solid var(--accent-9) !important;
 }
 
 .codetabs.inner input {
@@ -174,7 +182,7 @@
   display: flex;
   align-items: center;
   flex: 40%;
-  border: 1px solid var(--doctave-theme-content-bg-secondary);
+  border: 1px solid var(--gray-3);
   border-radius: 4px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -189,11 +197,11 @@
 
 .dark .hagrid-item:hover {
   background: rgba(47, 47, 61, 0.2) !important;
-  border-color: var(--doctave-theme-main);
+  border-color: var(--accent-9);
 }
 
 .hagrid-item:hover {
-  border-color: var(--doctave-theme-main);
+  border-color: var(--accent-9);
 }
 
 .hagrid-item-left {
@@ -341,40 +349,8 @@
   color: #202d47;
 }
 
-.content-markdown {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  max-width: 100% !important;  
-  font-family: "Inter" !important;
-}
-
-@media (min-width: 768px) {
-  .content-markdown {
-    padding-left: 80px !important;
-  }
-  
-}
-
-@media (min-width: 1024px) {
-  #page-content > div > div > div:has(.no-toc) {
-    --max-width-sm: auto !important;
-    padding-left: 40px !important;
-  }
-}
-
-
-@media (min-width: 1280px) {
-  #page-content > div > div > div:has(.no-toc) {
-    padding-left: 80px !important;
-  }
-
-  #page-content > div > div:has(.no-toc) {
-    width: auto !important;
-  }  
-}
-
 .section-header hr {
-  border-top: 1px dashed var(--doctave-theme-content-bg-secondary);
+  border-top: 1px dashed var(--gray-3);
 }
 
 .dark .section-header hr {
@@ -440,7 +416,7 @@
   font-weight: 700;
   font-size: 20pt;
 }
-.landing-page-card-header > p {
+.landing-page-card-header p {
   margin: 0 !important;
 }
 
@@ -458,9 +434,9 @@ div.landing-page-list-header {
   font-weight: 800;
   color: var(--gray-12);
   position: relative;
-  padding-top: var(--padding-3) !important;
-  padding-left: var(--padding-3) !important;
-  padding-right: var(--padding-3) !important;
+  padding-top: var(--space-4) !important;
+  padding-left: var(--space-4) !important;
+  padding-right: var(--space-4) !important;
 }
 
 .landing-page-list-header::before {
@@ -468,8 +444,8 @@ div.landing-page-list-header {
   height: 3px;
   width: 1.5rem;
   position: absolute;
-  left: var(--padding-3);
-  bottom: var(--padding-0);
+  left: var(--space-4);
+  bottom: 0;
   background-color: var(--accent-10);
 }
 

@@ -56,21 +56,21 @@
   background: linear-gradient(90deg, #414f6e 0%, #2773aa 100%);
 }
 
-.dark .quick-links-item > p {
-    border-top: 1px solid rgba(255,255,255,0.1) !important;  
+.dark .quick-links-item p {
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
 }
 
-.quick-links-item > p {
+.quick-links-item p {
   border-top: 1px solid #efefef !important;
   padding-top: 18px !important;
 }
 
-.dark .quick-links-item > p > a.quick-links-item-line { 
+.dark .quick-links-item a.quick-links-item-line {
     color: rgba(255, 255, 255, 0.50) !important;
 
 }
 
-.quick-links-item > p > a.quick-links-item-line {
+.quick-links-item p a.quick-links-item-line {
   display: flex !important;
   gap: 16px !important;
   align-items: center !important;
