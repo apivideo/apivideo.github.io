@@ -3,7 +3,7 @@ title: api.video documentation
 domain: https://docs.api.video
 header:
   links:
-    - external: https://help.api.video/en/
+    - external: https://chat.api.video/hc/help-center/en
       text: Help Center
     - external: https://api.video/changelog/
       text: Changelog
