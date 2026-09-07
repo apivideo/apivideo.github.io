@@ -19,7 +19,6 @@ There is no local build system, test runner, or linter. The workflow is: edit Ma
 - **`doctave.yaml`** — Master config: tabs, theme, custom CSS, OpenAPI spec bindings, and 450+ URL redirects for backward compatibility
 - **`navigation.yaml`** — Defines the sidebar navigation tree for the entire site
 - **`openapi.yaml`** — Main REST API spec (~17k lines, OpenAPI 3.0.0); auto-generates reference pages under `/reference/api/`
-- **`admin-api.yaml`** — Admin API spec; generates pages under `/reference/admin-api/`
 
 ## Content Architecture
 
@@ -60,5 +59,5 @@ Styling lives in `_assets/css/` with component-specific files (hero, cards, etc.
 
 - When adding a new page, it must also be added to `navigation.yaml` to appear in the sidebar
 - When renaming or moving a page, add a redirect entry in `doctave.yaml` under the `redirects:` section to preserve old URLs
-- OpenAPI spec changes in `openapi.yaml` or `admin-api.yaml` automatically regenerate the corresponding reference pages
+- OpenAPI spec changes in `openapi.yaml` automatically regenerate the corresponding reference pages
 - Internal links use root-relative paths (e.g., `/vod/video-object`) and can point to `.md` files
