@@ -28,8 +28,22 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
+      - name: Resolve docapella revision
+        id: docapella-rev
+        # pins the exact commit so the cache key only changes when upstream actually moves
+        run: echo "sha=$(git ls-remote https://github.com/Doctave/docapella.git refs/heads/main | cut -f1)" >> "$GITHUB_OUTPUT"
+      - name: Cache docapella binary
+        id: docapella-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/docapella
+          key: docapella-${{ steps.docapella-rev.outputs.sha }}
       - name: Install docapella
-        run: cargo install --git https://github.com/Doctave/docapella.git docapella
+        if: steps.docapella-cache.outputs.cache-hit != 'true'
+        run: cargo install --git https://github.com/Doctave/docapella.git --rev ${{ steps.docapella-rev.outputs.sha }} docapella
+      - name: Exclude files not meant for the site
+        # docapella has no ignore mechanism; it turns every *.md file into a page
+        run: rm -f CLAUDE.md
       - name: Build docs
         run: docapella build
       - name: Generate sitemap.xml and robots.txt
