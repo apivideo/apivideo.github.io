@@ -41,12 +41,25 @@ jobs:
         id: docapella-rev
         # pins the exact commit so the cache key only changes when upstream actually moves
         run: echo "sha=$(git ls-remote "$DOCAPELLA_REPO" "refs/heads/$DOCAPELLA_BRANCH" | cut -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache cargo registry and target
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
       - name: Cache docapella binary
         id: docapella-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cargo/bin/docapella
           key: docapella-${{ steps.docapella-rev.outputs.sha }}
+
       - name: Install docapella
         if: steps.docapella-cache.outputs.cache-hit != 'true'
         run: cargo install --git "$DOCAPELLA_REPO" --rev ${{ steps.docapella-rev.outputs.sha }} docapella
