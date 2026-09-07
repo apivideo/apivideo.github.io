@@ -25,13 +25,16 @@ jobs:
   # Single deploy job since we're just deploying
   build:
     runs-on: ubuntu-latest
+    env:
+      DOCAPELLA_REPO: https://github.com/gael-o0o/docapella.git
+      DOCAPELLA_BRANCH: fix/auth_tab_missing
     steps:
       - uses: actions/checkout@v7
       - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
       - name: Resolve docapella revision
         id: docapella-rev
         # pins the exact commit so the cache key only changes when upstream actually moves
-        run: echo "sha=$(git ls-remote https://github.com/Doctave/docapella.git refs/heads/main | cut -f1)" >> "$GITHUB_OUTPUT"
+        run: echo "sha=$(git ls-remote "$DOCAPELLA_REPO" "refs/heads/$DOCAPELLA_BRANCH" | cut -f1)" >> "$GITHUB_OUTPUT"
       - name: Cache docapella binary
         id: docapella-cache
         uses: actions/cache@v4
@@ -40,7 +43,7 @@ jobs:
           key: docapella-${{ steps.docapella-rev.outputs.sha }}
       - name: Install docapella
         if: steps.docapella-cache.outputs.cache-hit != 'true'
-        run: cargo install --git https://github.com/Doctave/docapella.git --rev ${{ steps.docapella-rev.outputs.sha }} docapella
+        run: cargo install --git "$DOCAPELLA_REPO" --rev ${{ steps.docapella-rev.outputs.sha }} docapella
       - name: Exclude files not meant for the site
         # docapella has no ignore mechanism; it turns every *.md file into a page
         run: rm -f CLAUDE.md
