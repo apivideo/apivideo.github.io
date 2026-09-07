@@ -33,14 +33,22 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOCAPELLA_REPO: https://github.com/gael-o0o/docapella.git
+      DOCAPELLA_REV: ""
       DOCAPELLA_BRANCH: fix/collapse_nav_items
     steps:
       - uses: actions/checkout@v7
       - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
+
       - name: Resolve docapella revision
         id: docapella-rev
-        # pins the exact commit so the cache key only changes when upstream actually moves
-        run: echo "sha=$(git ls-remote "$DOCAPELLA_REPO" "refs/heads/$DOCAPELLA_BRANCH" | cut -f1)" >> "$GITHUB_OUTPUT"
+        run: |
+          if [[ -n "$DOCAPELLA_REV" ]]; then
+            revision="$DOCAPELLA_REV"
+          else
+            revision=$(git ls-remote "$DOCAPELLA_REPO" "refs/heads/$DOCAPELLA_BRANCH" | cut -f1)
+          fi
+          test -n "$revision"
+          echo "sha=$revision" >> "$GITHUB_OUTPUT"
 
       - name: Cache cargo registry and target
         uses: actions/cache@v6
@@ -62,7 +70,7 @@ jobs:
 
       - name: Install docapella
         if: steps.docapella-cache.outputs.cache-hit != 'true'
-        run: cargo install --git "$DOCAPELLA_REPO" --rev ${{ steps.docapella-rev.outputs.sha }} docapella
+        run: cargo install --force --git "$DOCAPELLA_REPO" --rev ${{ steps.docapella-rev.outputs.sha }} docapella
       - name: Exclude files not meant for the site
         # docapella has no ignore mechanism; it turns every *.md file into a page
         run: rm -f CLAUDE.md
