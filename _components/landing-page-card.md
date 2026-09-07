@@ -8,7 +8,7 @@ attributes:
 
 <Box pad="0" class={"landing-page-card " | append(@heading) }>
   <Box pad="4" class="landing-page-card-header">
-    <span class="landing-page-card-header-title">{@heading}</span>
+    <span class="landing-page-card-header-title not-prose">{@heading}</span>
 
     {@subheading}
   </Box>
