@@ -32,6 +32,24 @@ jobs:
         run: cargo install --git https://github.com/Doctave/docapella.git docapella
       - name: Build docs
         run: docapella build
+      - name: Generate sitemap.xml and robots.txt
+        run: |
+          domain=$(grep '^domain:' docapella.yaml | sed 's/^domain:[[:space:]]*//')
+
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            find _build -name '*.html' ! -name '404.html' | sort | while read -r file; do
+              path="${file#_build/}"
+              path="${path%.html}"
+              # strip a trailing "index" segment to match Doctave's extensionless URLs
+              path="${path%index}"
+              echo "  <url><loc>${domain}/${path}</loc></url>"
+            done
+            echo '</urlset>'
+          } > _build/sitemap.xml
+
+          printf 'User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' "$domain" > _build/robots.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
