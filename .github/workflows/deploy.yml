@@ -34,7 +34,7 @@ jobs:
     env:
       DOCAPELLA_REPO: https://github.com/gael-o0o/docapella.git
       DOCAPELLA_REV: ""
-      DOCAPELLA_BRANCH: fix/collapse_nav_items
+      DOCAPELLA_BRANCH: main
     steps:
       - uses: actions/checkout@v7
       - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
