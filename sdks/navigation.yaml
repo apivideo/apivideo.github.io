@@ -1,16 +1,16 @@
 - heading: Libraries & SDKs
   items:
-    - label: SDK catalog
+    - label: Overview
       href: /sdks/README.md
     - label: Security best practices
       href: /sdks/security/README.md
-    - label: API client SDKs
+    - label: API clients
       href: /sdks/api-clients/README.md
-    - label: VOD SDKs
+    - label: VOD
       href: /sdks/vod/README.md
-    - label: Live streaming SDKs
+    - label: Live streaming
       href: /sdks/livestream/README.md
-    - label: Player and analytics SDKs
+    - label: Player and analytics
       href: /sdks/player/README.md
     - label: No-code solutions
       href: /sdks/nocode/README.md
