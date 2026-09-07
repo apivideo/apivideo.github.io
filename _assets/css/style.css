@@ -344,7 +344,7 @@
 .content-markdown {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  max-width: 100% !important;  
+  max-width: 100% !important;
   font-family: "Inter" !important;
 }
 
@@ -352,7 +352,7 @@
   .content-markdown {
     padding-left: 80px !important;
   }
-  
+
 }
 
 @media (min-width: 1024px) {
@@ -370,7 +370,7 @@
 
   #page-content > div > div:has(.no-toc) {
     width: auto !important;
-  }  
+  }
 }
 
 .section-header hr {
@@ -427,7 +427,7 @@
 .landing-page-card-header {
   height: 12rem;
   background: linear-gradient(215deg, #fa5b30 -5.18%, #f7b500 179.35%);
-  color: var(--accent-contrast);
+  color: #fff !important;
 
   display: flex;
   flex-direction: column;
@@ -439,10 +439,11 @@
 .landing-page-card-header-title {
   font-weight: 700;
   font-size: 20pt;
-  color: #fff;
+  color: #fff !important;
 }
 .landing-page-card-header > p {
   margin: 0 !important;
+  color: #fff !important;
 }
 
 /* ----------------------------- */
