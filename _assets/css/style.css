@@ -424,7 +424,7 @@
   background: linear-gradient(76deg, #186EB0 -24.15%, #3BC8F4 93.03%);
 }
 
-.landing-page-card-header {
+.landing-page-card .landing-page-card-header {
   height: 12rem;
   background: linear-gradient(215deg, #fa5b30 -5.18%, #f7b500 179.35%);
   color: #fff !important;
@@ -436,12 +436,13 @@
   border-radius: 0 !important;
 }
 
-.landing-page-card-header-title {
+.landing-page-card .landing-page-card-header-title {
   font-weight: 700;
   font-size: 20pt;
   color: #fff !important;
 }
-.landing-page-card-header > p {
+
+.landing-page-card .landing-page-card-header > p {
   margin: 0 !important;
   color: #fff !important;
 }
