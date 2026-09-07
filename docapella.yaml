@@ -263,7 +263,7 @@ redirects:
     to: /reference/api/Videos#create-a-video-object
   - from: /reference/post-webhooks
     to: /reference/api/Webhooks#create-webhook
-  - from: /reference/upload-tokens  
+  - from: /reference/upload-tokens
     to: /vod/delegated-upload-tokens
   - from: /reference/videos-1
     to: /reference/api/Videos
@@ -399,8 +399,8 @@ redirects:
     to: /reference/api/Videos#set-a-thumbnail
   - from: /reference/post_auth-refresh
     to: /reference/api/Advanced-authentication#refresh-bearer-token
-  - from: /reference/request-invalid-query-parameter
-    to: /reference/invalid-query-parameter
+  # - from: /reference/request-invalid-query-parameter
+  #   to: /reference/invalid-query-parameter
   - from: /reference/useful-tools
     to: /
   - from: /reference/get_analytics-videos-videoid

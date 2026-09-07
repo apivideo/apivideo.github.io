@@ -91,7 +91,7 @@
         - label: Attribute Required
           href: ./attribute-required.md
         - label: Invalid Query Parameter
-          href: ./invalid-query-parameter.md
+          href: ./request-invalid-query-parameter.md
         - label: Invalid Payload
           href: ./invalid-payload.md
         - label: Invalid File Extension
