@@ -2,9 +2,14 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on commits pushed to the default branch
   push:
     branches: ["main"]
+
+  # Runs when a pull request targeting the default branch is merged
+  pull_request:
+    branches: ["main"]
+    types: [closed]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,6 +29,7 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   build:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     env:
       DOCAPELLA_REPO: https://github.com/gael-o0o/docapella.git
