@@ -1,4 +1,20 @@
 ---
+- heading: Libraries & SDKs
+  items:
+    - label: Overview
+      href: /sdks/README.md
+    - label: Security best practices
+      href: /sdks/security/README.md
+    - label: API clients
+      href: /sdks/api-clients/README.md
+    - label: VOD
+      href: /sdks/vod/README.md
+    - label: Live streaming
+      href: /sdks/livestream/README.md
+    - label: Player and analytics
+      href: /sdks/player/README.md
+    - label: No-code solutions
+      href: /sdks/nocode/README.md
 
 - heading: No-code solutions
   items:
