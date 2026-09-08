@@ -3,7 +3,7 @@ title: Guides, references, libraries & SDKs
 hide_navigation: false
 toc: false
 breadcrumbs: false
-meta: 
+meta:
     description: Cloud-based video hosting and live streaming platform with analytics. Mobile and web SDKs for VOD, live streaming, and player for NodeJS, Javascript, Typescript, Python, Go, PHP, C#, iOS Swift, Android Kotlin.
 ---
 
@@ -30,21 +30,21 @@ Check out the products!
     <Component.LandingPageCard heading="Live" subheading="streaming">
         <Flex dir="column" pad="0" justify="between" gap="2">
             api.video provides you with the possibility to embed low-latency live streaming into your application, website, or project seamlessly.
-           
+
            <Button href="/live-streaming">Learn More</Button>
         </Flex>
     </Component.LandingPageCard>
     <Component.LandingPageCard heading="Delivery" subheading="& players">
         <Flex dir="column" pad="0" justify="between" gap="2">
             api.video lets you customize a large part of the delivery, whether it's the player's branding or adding captions, chapters, and watermarks.
-           
+
            <Button href="/delivery">Learn More</Button>
         </Flex>
     </Component.LandingPageCard>
     <Component.LandingPageCard heading="Analytics" subheading="& data">
         <Flex dir="column" pad="0" justify="between" gap="2">
             api.video provides video and live stream analytics to track viewer engagement, offering real time data on views, watch time, demographics, and drop-off points.
-           
+
            <Button href="/analytics">Learn More</Button>
         </Flex>
     </Component.LandingPageCard>
@@ -88,7 +88,7 @@ Check out the products!
 
     <Component.LandingPageList heading="Resources">
         <Flex pad="0" dir="column">
-            [Help Center and FAQs](https://help.api.video/en/)
+            [Help Center and FAQs](https://chat.api.video/hc/help-center)
 
             [API reference](/reference)
 
@@ -99,7 +99,7 @@ Check out the products!
     </Component.LandingPageList>
 </Grid>
 
-<div class="section-header"> 
+<div class="section-header">
 
 <hr/>
 
@@ -108,11 +108,11 @@ Check out the products!
 </div>
 
 <Grid cols="1" gap="2">
-    <Card href="https://help.api.video/en/" pad="0">
+    <Card href="https://chat.api.video/hc/help-center" pad="0">
         <Flex pad="1" align="center" gap="2">
             <Box>![Help center](/_assets/icons/helpcenter.png)</Box>
 
-            <Box>[Browse help center ›](https://help.api.video/en/)</Box>
+            <Box>[Browse help center ›](https://chat.api.video/hc/help-center)</Box>
         </Flex>
     </Card>
 </Grid>
