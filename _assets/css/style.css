@@ -464,6 +464,7 @@ div.landing-page-list-header {
   padding-top: var(--padding-3) !important;
   padding-left: var(--padding-3) !important;
   padding-right: var(--padding-3) !important;
+  margin-left: 1.5rem;
 }
 
 .landing-page-list-header::before {
@@ -504,4 +505,8 @@ div.landing-page-list-header {
   overflow: hidden;
   border-radius: var(--radius-2);
   box-shadow: 0px 20px 50px 0px rgba(59, 43, 92, 0.1), 0px 34px 24px -20px rgba(65, 79, 110, 0.04);
+}
+
+header .logo img{
+  max-height: 3rem;
 }
