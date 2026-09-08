@@ -34,7 +34,7 @@ jobs:
     env:
       DOCAPELLA_REPO: https://github.com/gael-o0o/docapella.git
       DOCAPELLA_REV: ""
-      DOCAPELLA_BRANCH: fix/wrong_font_path_sanitizing
+      DOCAPELLA_BRANCH: fix/remove_heading_slash_favicon_url
     steps:
       - uses: actions/checkout@v7
       - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
