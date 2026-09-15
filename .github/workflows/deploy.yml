@@ -37,7 +37,7 @@ jobs:
       DOCAPELLA_BRANCH: fix/remove_heading_slash_favicon_url
     steps:
       - uses: actions/checkout@v7
-      - uses: actions-rust-lang/setup-rust-toolchain@v1.17.0
+      - uses: actions-rust-lang/setup-rust-toolchain@v2.0.0
 
       - name: Resolve docapella revision
         id: docapella-rev
